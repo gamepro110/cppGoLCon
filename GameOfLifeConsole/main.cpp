@@ -161,7 +161,7 @@ int main()
 		}
 
 		//print fps (off for preformance test)
-		//swprintf_s(screen, m_screenWidth, L"\rtime: %3.8f delay: %3.2F", deltaTime, m_delay);
+		swprintf_s(screen, m_screenWidth, L"\rtime: %3.8f delay: %3.2F", deltaTime, m_delay);
 
 		// setting termination char and writing to screen
 		screen[m_screenWidth * m_screenHeight - 1] = '\0';
